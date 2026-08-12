@@ -98,7 +98,7 @@ The model was evaluated using:
 
 ## 📈 Results
 
-The model achieved an accuracy of **[ADD YOUR ACTUAL ACCURACY HERE]%** on the test dataset.
+The model achieved an accuracy of 93.3333% on the test dataset.
 
 The classification report and confusion matrix were also used to evaluate the performance of the model for each Iris species.
 
