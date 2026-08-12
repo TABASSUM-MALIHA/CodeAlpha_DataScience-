@@ -1,45 +1,89 @@
-# Iris Flower Species Classification Using Machine Learning
+# CodeAlpha Data Science Internship
 
-## 📌 Project Overview
+This repository contains the projects completed as part of my **CodeAlpha Data Science Internship** from **10 August 2026 to 10 September 2026**.
 
-This project is developed as part of the **CodeAlpha Data Science Internship**.
+## 👩‍💻 Intern
 
-The objective of this project is to build a machine learning classification model that predicts the species of an Iris flower based on its sepal and petal measurements.
+**Name:** Maliha Tabassum
+**Domain:** Data Science
+**Organization:** CodeAlpha
 
-The three Iris species included in the dataset are:
+---
 
-* Setosa
-* Versicolor
-* Virginica
+## 📌 Completed Projects
 
-## 🎯 Objectives
+### Task 1 — Iris Flower Species Classification
 
-* Understand and explore the Iris dataset.
-* Perform exploratory data analysis (EDA).
-* Check the dataset for missing values and basic data quality issues.
-* Visualize relationships between the flower measurements.
-* Prepare the data for machine learning.
-* Train a classification model using Logistic Regression.
-* Evaluate the model using accuracy, precision, recall, F1-score, and a confusion matrix.
+A machine learning classification project that predicts the species of an Iris flower using sepal and petal measurements.
 
-## 📊 Dataset
+**Techniques Used:**
 
-The project uses the **Iris dataset** available through Scikit-learn.
+* Data exploration and visualization
+* Train-test split
+* Feature scaling
+* Logistic Regression
+* Accuracy, precision, recall and F1-score
+* Confusion matrix
 
-The dataset contains **150 samples** and four numerical features:
+**Model Accuracy:** **93.33%**
 
-* Sepal Length (cm)
-* Sepal Width (cm)
-* Petal Length (cm)
-* Petal Width (cm)
+**Dataset:** Scikit-learn Iris Dataset
 
-There are three target classes:
+---
 
-* Setosa
-* Versicolor
-* Virginica
+### Task 2 — Unemployment Analysis with Python
 
-Each species contains 50 samples.
+A data analysis project focused on understanding unemployment patterns in India.
+
+**Analysis Performed:**
+
+* Data cleaning and exploration
+* Regional unemployment analysis
+* Rural vs Urban comparison
+* Unemployment trends over time
+* COVID-19 period analysis
+* Monthly unemployment patterns
+* Data visualization
+
+**Libraries Used:**
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+**Dataset:** CodeAlpha-provided unemployment dataset
+
+---
+
+### Task 3 — Car Price Prediction
+
+A machine learning regression project that predicts car selling prices based on vehicle characteristics.
+
+**Techniques Used:**
+
+* Data preprocessing
+* Exploratory data analysis
+* Categorical feature encoding
+* Train-test split
+* Random Forest Regression
+* Model evaluation using MAE, RMSE and R²
+
+**Features Used:**
+
+* Year
+* Present Price
+* Driven Kilometers
+* Fuel Type
+* Selling Type
+* Transmission
+* Owner
+
+**Target Variable:** Selling Price
+
+**Dataset:** CodeAlpha-provided Car Dataset
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -51,91 +95,33 @@ Each species contains 50 samples.
 * Seaborn
 * Scikit-learn
 
-## 🔍 Project Workflow
-
-### 1. Data Loading
-
-The Iris dataset was loaded using Scikit-learn's built-in dataset.
-
-### 2. Data Exploration
-
-The dataset was examined using:
-
-* `head()`
-* `info()`
-* `describe()`
-* Missing-value analysis
-* Species distribution analysis
-
-### 3. Exploratory Data Analysis
-
-Visualizations were created to understand relationships between the features and Iris species.
-
-A pairplot showed that **petal length and petal width provide strong separation between the different Iris species**.
-
-### 4. Data Preprocessing
-
-The dataset was divided into:
-
-* **80% training data**
-* **20% testing data**
-
-The numerical features were standardized using `StandardScaler`.
-
-### 5. Model Training
-
-A **Logistic Regression** classification model was trained using the scaled training data.
-
-### 6. Model Evaluation
-
-The model was evaluated using:
-
-* Accuracy
-* Precision
-* Recall
-* F1-score
-* Confusion Matrix
-
-## 📈 Results
-
-The model achieved an accuracy of 93.3333% on the test dataset.
-
-The classification report and confusion matrix were also used to evaluate the performance of the model for each Iris species.
-
-> The result shown above is based on the actual execution of the notebook and should be updated with the final value obtained during model evaluation.
-
-## 💡 Key Observations
-
-* The Iris dataset contains no missing values.
-* The dataset is balanced, with 50 samples for each species.
-* Petal length and petal width show strong differences between the species.
-* Setosa is relatively easy to distinguish from the other two species.
-* Versicolor and Virginica have some overlap in their feature values.
-* Logistic Regression can effectively classify the Iris species using the available measurements.
-
-## 🏁 Conclusion
-
-This project demonstrates a complete beginner-level data science and machine learning workflow, starting from data exploration and visualization and progressing to preprocessing, model training, and evaluation.
-
-The results show that the measurements of Iris flowers can be used effectively to classify their species using a Logistic Regression model.
-
-## 📁 Project Structure
+## 📂 Repository Contents
 
 ```text
-CodeAlpha_IrisFlowerClassification/
+codealpha_tasks/
 │
-├── Iris_Flower_Classification.ipynb
-├── README.md
-└── requirements.txt
+├── CodeAlpha_IrisFlowerClassification(Task-1).ipynb
+├── Iris_Flower_Classification(Task-1).html
+├── Unemployment in India.csv
+├── Unemployment_Analysis.ipynb(Task-2).ipynb
+├── car data.csv
+├── Car_Price_Prediction(Task-3).ipynb
+└── README.md
 ```
 
-## 👩‍💻 Internship
+## 🎯 Learning Outcomes
 
-**Program:** CodeAlpha Data Science Internship
-**Project:** Iris Flower Species Classification Using Machine Learning
-**Domain:** Data Science
-**Internship Batch:** 10 August 2026 – 10 September 2026
+Through these projects, I gained practical experience in:
 
-## 📚 Libraries
+* Exploratory Data Analysis
+* Data preprocessing
+* Data visualization
+* Classification
+* Regression
+* Machine learning model evaluation
+* Working with real-world datasets using Python
 
-The required Python libraries are listed in `requirements.txt`.
+## 📜 Internship
+
+**CodeAlpha Data Science Internship**
+**Batch:** 10 August 2026 – 10 September 2026
